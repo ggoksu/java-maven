@@ -1,0 +1,24 @@
+[90m[0mDefaulting app directory to current working directory [94m/Users/ggoksu/samples/apps/java-maven[0m (use --path to override)
+[90m[0mUsing user-provided builder image [94mcnbs/sample-builder:bionic[0m
+[90m[0mPulling builder image [94mcnbs/sample-builder:bionic[0m (use --no-pull flag to skip this step)
+bionic: Pulling from cnbs/sample-builder
+Digest: sha256:5a1a1b963a3daa434a46d4741f66495704b101b6cd47ec7fc9f4da2c4a0c1746
+Status: Image is up to date for cnbs/sample-builder:bionic
+[90m[0mSelected run image [94mcnbs/sample-stack-run:bionic[0m from builder [94mcnbs/sample-builder:bionic[0m
+[90m[0mPulling run image [94mcnbs/sample-stack-run:bionic[0m (use --no-pull flag to skip this step)
+bionic: Pulling from cnbs/sample-stack-run
+Digest: sha256:2ca156537bad95e4870e5e8a74b10e7b46b722add5ebb6eda9939e8ce8c7143b
+Status: Image is up to date for cnbs/sample-stack-run:bionic
+[90m[0mUsing cache image [94mpack-cache-40a311b545d7[0m
+[90m[0m[36m===> DETECTING[0m
+[90m[0m[[36mdetector[0m] ======== Results ========
+[90m[0m[[36mdetector[0m] pass: io.buildpacks.samples.java-maven@0.0.1
+[90m[0m[[36mdetector[0m] Resolving plan... (try #1)
+[90m[0m[[36mdetector[0m] Success! (1)
+[90m[0m[36m===> RESTORING[0m
+[90m[0m[[36mrestorer[0m] Cache 'pack-cache-40a311b545d7': metadata not found, nothing to restore
+[90m[0m[36m===> ANALYZING[0m
+[90m[0m[[36manalyzer[0m] Analyzing image '51c27236c64bcbd8ce0d2b9f27ceec207b0a8aa5aef37e37fd2c8810de29bf11'
+[90m[0m[36m===> BUILDING[0m
+[90m[0m[[36mbuilder[0m] ---> Java buildpack
+[90m[0m[[36mbuilder[0m] ---> Installing JDK
